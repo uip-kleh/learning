@@ -7,8 +7,13 @@ import Name from './components/Name'
 import Message from './components/Message';
 import Parent from './components/ContainerSample';
 import Page from './components/ContextSample';
-import reportWebVitals from './reportWebVitals';
 import Counter from './components/Counter';
+import Counters from './components/Counters';
+import { FizzBuzzParent } from './components/Parent';
+import { ParentMemo } from './components/ParentMemo';
+import { UseMemoSample } from './components/UseMemoSample';
+import { Clock } from './components/Clock';
+import { UseContextSample } from './components/UseContextSample';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -18,6 +23,12 @@ ReactDOM.render(
     <Parent />
     <Page />
     <Counter initialValue={0}/>
+    <Counters initialValue={0} />
+    <FizzBuzzParent />
+    <ParentMemo />
+    <UseMemoSample />
+    <Clock />
+    <UseContextSample />
   </React.StrictMode>,
   document.getElementById('root'),
 )
