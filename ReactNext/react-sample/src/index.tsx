@@ -14,21 +14,31 @@ import { ParentMemo } from './components/ParentMemo';
 import { UseMemoSample } from './components/UseMemoSample';
 import { Clock } from './components/Clock';
 import { UseContextSample } from './components/UseContextSample';
+import ImageUploader from './components/UseRefSample';
+import { FizzBuzz } from './components/FizzBuzz';
+import { UseCallbackSample } from './components/UseCallbackSample';
+import { UseEffectSample } from './components/UseEffectSample';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Hello />
-    <Name />
-    <Message />
-    <Parent />
-    <Page />
-    <Counter initialValue={0}/>
-    <Counters initialValue={0} />
-    <FizzBuzzParent />
+    {/* <Hello /> */}
+    {/* <Name /> */}
+    {/* <Message /> */}
+    {/* <Parent /> */}
+    {/* <Page /> */}
+    {/* <Counter initialValue={0}/> */}
+    {/* <Counters initialValue={0} /> */}
+    {/* <FizzBuzzParent />
     <ParentMemo />
     <UseMemoSample />
     <Clock />
     <UseContextSample />
+    <ImageUploader /> */}
+    <h1>PRACTICE</h1>
+    {/* <FizzBuzz /> */}
+    <UseCallbackSample />
+    <UseMemoSample />
+    <UseEffectSample />
   </React.StrictMode>,
   document.getElementById('root'),
 )
